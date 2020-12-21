@@ -1,0 +1,19 @@
+@font-face {
+  font-family: 'Brown';
+  src: url("../font/Brown-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* line 8, style.scss */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* line 13, style.scss */
+.nav {
+  font-family: 'Brown';
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

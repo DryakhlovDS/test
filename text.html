@@ -1,0 +1,1832 @@
+<!DOCTYPE html>
+<html lang="ru" class="tag-html">
+
+<head>
+    <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+    <meta content="on" http-equiv="cleartype">
+    <meta content="True" name="HandheldFriendly">
+    <meta content="320" name="MobileOptimized">
+    <meta name="format-detection" content="telephone=no">
+    <meta
+        content="width=device-width, height=device-height, initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0"
+        name="viewport">
+
+    <link data-settings="SCHEME_FAVICON" rel="icon" type="image/png"
+        href="/bitrix/templates/citrus_aproduction2/themes/blue/logo.png" />
+
+    <title>ПромКирпич</title>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="robots" content="index, follow" />
+    <link href="/bitrix/js/main/core/css/core.min.css?15912730692854" type="text/css" rel="stylesheet" />
+
+
+
+    <link href="/bitrix/js/citrus.core/citrus/ui/normalize.css?15912741757091" type="text/css" rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/citrus/ui/cui-base.css?15912741754393" type="text/css" rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/citrus/ui/cui-fgrid.css?159127417523274" type="text/css" rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/bower_components/swiper/dist/css/swiper.min.css?159127417519773" type="text/css"
+        rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/bower_components/magnific-popup/dist/magnific-popup.css?15912741756951"
+        type="text/css" rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/citrus/popup/popup.css?15912741753573" type="text/css" rel="stylesheet" />
+    <link href="/bitrix/js/citrus.core/citrus/map/jquery.citrusObjectsMap.css?15912741751736" type="text/css"
+        rel="stylesheet" />
+    <link
+        href="/bitrix/cache/css/s1/citrus_aproduction2/page_6b95d36fb11ccbc572924bb997fda8e8/page_6b95d36fb11ccbc572924bb997fda8e8_v1.css?159127426512483"
+        type="text/css" rel="stylesheet" />
+    <link
+        href="/bitrix/cache/css/s1/citrus_aproduction2/template_dc3810d6368111a20d0826d5c6b7040f/template_dc3810d6368111a20d0826d5c6b7040f_v1.css?159127436545829"
+        type="text/css" data-template-style="true" rel="stylesheet" />
+    <script type="text/javascript">
+        if (!window.BX) window.BX = {};
+        if (!window.BX.message) window.BX.message = function (mess) {
+            if (typeof mess == 'object')
+                for (var i in mess) BX.message[i] = mess[i];
+            return true;
+        };
+    </script>
+    <script type="text/javascript">
+        (window.BX || top.BX).message({
+            'JS_CORE_LOADING': 'Загрузка...',
+            'JS_CORE_NO_DATA': '- Нет данных -',
+            'JS_CORE_WINDOW_CLOSE': 'Закрыть',
+            'JS_CORE_WINDOW_EXPAND': 'Развернуть',
+            'JS_CORE_WINDOW_NARROW': 'Свернуть в окно',
+            'JS_CORE_WINDOW_SAVE': 'Сохранить',
+            'JS_CORE_WINDOW_CANCEL': 'Отменить',
+            'JS_CORE_WINDOW_CONTINUE': 'Продолжить',
+            'JS_CORE_H': 'ч',
+            'JS_CORE_M': 'м',
+            'JS_CORE_S': 'с',
+            'JSADM_AI_HIDE_EXTRA': 'Скрыть лишние',
+            'JSADM_AI_ALL_NOTIF': 'Показать все',
+            'JSADM_AUTH_REQ': 'Требуется авторизация!',
+            'JS_CORE_WINDOW_AUTH': 'Войти',
+            'JS_CORE_IMAGE_FULL': 'Полный размер'
+        });
+    </script>
+
+    <script type="text/javascript" src="/bitrix/js/main/core/core.min.js?1591273306249634"></script>
+
+    <script>
+        BX.setJSList(['/bitrix/js/main/core/core_ajax.js', '/bitrix/js/main/core/core_promise.js',
+            '/bitrix/js/main/polyfill/promise/js/promise.js', '/bitrix/js/main/loadext/loadext.js',
+            '/bitrix/js/main/loadext/extension.js', '/bitrix/js/main/polyfill/promise/js/promise.js',
+            '/bitrix/js/main/polyfill/find/js/find.js', '/bitrix/js/main/polyfill/includes/js/includes.js',
+            '/bitrix/js/main/polyfill/matches/js/matches.js', '/bitrix/js/ui/polyfill/closest/js/closest.js',
+            '/bitrix/js/main/polyfill/fill/main.polyfill.fill.js', '/bitrix/js/main/polyfill/find/js/find.js',
+            '/bitrix/js/main/polyfill/matches/js/matches.js',
+            '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js', '/bitrix/js/main/core/core.js',
+            '/bitrix/js/main/polyfill/intersectionobserver/js/intersectionobserver.js',
+            '/bitrix/js/main/lazyload/dist/lazyload.bundle.js',
+            '/bitrix/js/main/polyfill/core/dist/polyfill.bundle.js',
+            '/bitrix/js/main/parambag/dist/parambag.bundle.js'
+        ]);
+        BX.setCSSList(['/bitrix/js/main/core/css/core.css', '/bitrix/js/main/lazyload/dist/lazyload.bundle.css',
+            '/bitrix/js/main/parambag/dist/parambag.bundle.css'
+        ]);
+    </script>
+    <script type="text/javascript">
+        (window.BX || top.BX).message({
+            'CITRUS_REALTY_FAV': 'Избранное',
+            'CITRUS_REALTY_FAV_REMOVE_TITLE': 'убрать из избранного',
+            'CITRUS_REALTY_2FAV': 'в избранное',
+            'CITRUS_REALTY_GO_2FAV': 'Перейти в избранное',
+            'CITRUS_REALTY_COLLAPSE': 'Свернуть',
+            'CITRUS_REALTY_COLLAPSE_TITLE': 'Нажмите чтобы свернуть карту',
+            'citrusValidator': {
+                'required': 'Это поле необходимо заполнить.',
+                'remote': 'Пожалуйста, введите правильное значение.',
+                'email': 'Пожалуйста, введите корректный адрес электронной почты.',
+                'url': 'Пожалуйста, введите корректный URL.',
+                'date': 'Пожалуйста, введите корректную дату.',
+                'dateISO': 'Пожалуйста, введите корректную дату в формате ISO.',
+                'number': 'Пожалуйста, введите число.',
+                'digits': 'Пожалуйста, вводите только цифры.',
+                'creditcard': 'Пожалуйста, введите правильный номер кредитной карты.',
+                'confirm_password': 'Пароли не совпадают.',
+                'extension': 'Пожалуйста, выберите файл с правильным расширением.',
+                'maxlength': 'Пожалуйста, введите не больше {0} символов.',
+                'minlength': 'Пожалуйста, введите не меньше {0} символов.',
+                'rangelength': 'Пожалуйста, введите значение длиной от {0} до {1} символов.',
+                'range': 'Пожалуйста, введите число от {0} до {1}.',
+                'max': 'Пожалуйста, введите число, меньшее или равное {0}.',
+                'min': 'Пожалуйста, введите число, большее или равное {0}.',
+                'phone_all': 'Пожалуйста, введите корректный номер телефона.',
+                'phone': 'Пожалуйста, введите корректный номер телефона.',
+                'inn': 'Введите корректный ИНН.',
+                'inn_u': 'Введите корректный ИНН юр лица.',
+                'inn_f': 'Введите корректный ИНН физ лица.',
+                'ogrn': 'Введите корректный ОГРН.',
+                'kpp': 'Введите корректный КПП.',
+                'filetype': 'Не верный тип файла. Возможные типы => {0}.',
+                'recaptcha': 'Не пройдена защита от спама'
+            },
+            'YAMAP_TOUCH_SCROLL__TEXT_SCROLL': 'Чтобы изменить масштаб, прокручивайте карту, удерживая клавишу Ctrl',
+            'YAMAP_TOUCH_SCROLL__TEXT_TOUCH': 'Чтобы переместить карту, проведите по ней двумя пальцами',
+            'photoSwipe': {
+                'close': 'Закрыть (Esc)',
+                'share': 'Поделится',
+                'fs': 'Включить полноэкранный режим',
+                'zoom': 'Увеличение/уменьшение',
+                'prev': 'Предыдущая (Левая клавиша стрелка)',
+                'next': 'Следующая (Правая клавиша стрелка)'
+            }
+        });
+    </script>
+    <script type="text/javascript">
+        (window.BX || top.BX).message({
+            'LANGUAGE_ID': 'ru',
+            'FORMAT_DATE': 'DD.MM.YYYY',
+            'FORMAT_DATETIME': 'DD.MM.YYYY HH:MI:SS',
+            'COOKIE_PREFIX': 'BITRIX_SM',
+            'SERVER_TZ_OFFSET': '10800',
+            'SITE_ID': 's1',
+            'SITE_DIR': '/',
+            'USER_ID': '',
+            'SERVER_TIME': '1592052310',
+            'USER_TZ_OFFSET': '0',
+            'USER_TZ_AUTO': 'Y',
+            'bitrix_sessid': '94d26fa7b70a6fab2b2bdc71305f6ea5'
+        });
+    </script>
+
+
+    
+    <script type="text/javascript">
+        BX.setJSList(['/bitrix/templates/citrus_aproduction2/app/js/main.js',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/menu/mobile/script.js',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/search.form/header_search/script.js'
+        ]);
+    </script>
+    <script type="text/javascript">
+        BX.setCSSList(['/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/mp_slider/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/catalog.section.list/catalog_slider/style.css',
+            '/bitrix/components/citrus.aproduction2/template/templates/catalog-section/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/service_small/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/mp_about/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/three_news/style.css',
+            '/bitrix/templates/citrus_aproduction2/app/fonts/icomoon/icomoon.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/typography.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/modal.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/btn.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/table.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/swiper.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/list.css',
+            '/bitrix/templates/citrus_aproduction2/app/css/main.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/search.form/mobile/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/menu/mobile/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/system.pagenavigation/.default/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/office_header/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/menu/main_menu/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/search.form/header_search/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/menu/footer_menu/style.css',
+            '/bitrix/templates/citrus_aproduction2/components/bitrix/news.list/office_footer/style.css',
+            '/bitrix/components/citrus.aproduction2/template/templates/properties/style.css',
+            '/bitrix/templates/citrus_aproduction2/themes/blue//colors.css'
+        ]);
+    </script>
+    <script>
+        if (BX.browser.DetectIeVersion() >= 9) {
+            BX.loadScript("https://unpkg.com/css-vars-ponyfill@1", function () {
+                BX.ready(function () {
+                    cssVars({
+                        onlyVars: true
+                    })
+                });
+            });
+        }
+    </script>
+
+
+
+
+    <script type="text/javascript"
+        src="/bitrix/cache/js/s1/citrus_aproduction2/template_31d66b96d89db0b46be34cafbd117a25/template_31d66b96d89db0b46be34cafbd117a25_v1.js?15912743654685">
+    </script>
+    <script type="text/javascript">
+        var _ba = _ba || [];
+        _ba.push(["aid", "cc69f5ccee33d4dc8c7101e814011aa0"]);
+        _ba.push(["host", "aspf-test.citrus-web.ru"]);
+        (function () {
+            var ba = document.createElement("script");
+            ba.type = "text/javascript";
+            ba.async = true;
+            ba.src = (document.location.protocol == "https:" ? "https://" : "http://") + "bitrix.info/ba.js";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(ba, s);
+        })();
+    </script>
+
+
+
+
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Noto+Serif:400&amp;subset=cyrillic">
+</head>
+
+<body>
+
+
+
+    <div class="main-overlay"></div>
+    <aside class="mobile-sidebar">
+        <div class="mobile-sidebar__inner">
+            <!--noindex-->
+
+            <form action="/search/" autocomplete="off" class="mobile-search">
+                <input name="q" type="text" class="mobile-search__input" placeholder="Введите слово для поиска"
+                    maxlength="50">
+                <button type="submit" class="mobile-search__button" name="s">
+                    <i class="icon-search"></i>
+                </button>
+            </form>
+            <!--/noindex-->
+
+
+            <ul class="mobile-menu">
+
+
+
+                <li class="mobile-menu__li _lvl-1 _parent">
+                    <a class="mobile-menu__link" href="/kompaniya/">
+                        Компания
+                        <span class="mobile-menu__open-submenu">
+                            <i class="icon-arrow-right"></i>
+                        </span>
+                    </a>
+                    <ul class="mobile-menu__sub-menu">
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/istoriya/">
+                                История
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/proizvodstvo/">
+                                Производство
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/svidetelstva-i-sertifikaty/">
+                                Свидетельства и сертификаты
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/vopros-otvet/">
+                                Вопрос-ответ
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/otzyvy-klientov/">
+                                Отзывы клиентов
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/novosti/">
+                                Новости
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/partnery/">
+                                Партнеры
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/kompaniya/aktsii/">
+                                Акции
+                            </a>
+
+
+
+                    </ul>
+                </li>
+                <li class="mobile-menu__li _lvl-1 _parent">
+                    <a class="mobile-menu__link" href="/produktsiya/">
+                        Продукция
+                        <span class="mobile-menu__open-submenu">
+                            <i class="icon-arrow-right"></i>
+                        </span>
+                    </a>
+                    <ul class="mobile-menu__sub-menu">
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/brus-i-pilomaterialy/">
+                                Брус и пиломатериалы
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/bruschatka-i-plitka/">
+                                Брусчатка и плитка
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/keramicheskie-bloki/">
+                                Керамические блоки
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/kirpich-oblitsovochnyy/">
+                                Кирпич облицовочный
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/kirpich-silikatnyy/">
+                                Кирпич силикатный
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/kirpich-stroitelnyy/">
+                                Кирпич строительный
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/kovanye-izdeliya/">
+                                Кованые изделия
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/peremychki-bruskovye/">
+                                Перемычки брусковые
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/plastikovye-izdeliya/">
+                                Пластиковые изделия
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/produktsiya/testil-dlya-doma/">
+                                Тестиль для дома
+                            </a>
+
+
+
+                    </ul>
+                </li>
+                <li class="mobile-menu__li _lvl-1">
+                    <a class="mobile-menu__link" href="/price-list/">
+                        Прайс-лист
+                    </a>
+
+
+
+
+                <li class="mobile-menu__li _lvl-1 _parent">
+                    <a class="mobile-menu__link" href="/uslugi/">
+                        Услуги
+                        <span class="mobile-menu__open-submenu">
+                            <i class="icon-arrow-right"></i>
+                        </span>
+                    </a>
+                    <ul class="mobile-menu__sub-menu">
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/uslugi/stroitelstvo_domov_iz_kirpicha/">
+                                Строительство домов из кирпича
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/uslugi/krovelnye-raboty/">
+                                Кровельные работы
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/uslugi/elektromontazhnye-raboty/">
+                                Электромонтажные работы
+                            </a>
+
+
+
+
+                        <li class="mobile-menu__li _lvl-2">
+                            <a class="mobile-menu__link" href="/uslugi/fasadnye-raboty/">
+                                Фасадные работы
+                            </a>
+
+
+
+                    </ul>
+                </li>
+                <li class="mobile-menu__li _lvl-1">
+                    <a class="mobile-menu__link" href="/nashi-raboty/">
+                        Наши работы
+                    </a>
+
+
+
+
+                <li class="mobile-menu__li _lvl-1">
+                    <a class="mobile-menu__link" href="/kontakty/">
+                        Контакты
+                    </a>
+
+
+
+
+            </ul>
+        </div>
+    </aside>
+
+    <div class="main-container">
+        <header class="h">
+            <div class="w">
+                <div class="h-row">
+                    <div class="h-left">
+
+                        <a href="/" data-settings="LOGO_SHOW_TEXT" class="h-logo _with-text">
+                            <span class="h-logo__image-container">
+                                <img data-settings="SCHEME_LOGO" data-settings-rel="logo" class="h-logo__image"
+                                    src="/bitrix/templates/citrus_aproduction2/themes/blue/logo.png" alt="">
+                            </span>
+
+                            <span class="h-logo__text">
+                                <span class="h-logo__text-1"><b data-settings="SITE_NAME"
+                                        data-settings-rel="text1">Пром</b><span data-settings="SITE_NAME"
+                                        data-settings-rel="text2">Кирпич</span></span>
+                                <span class="h-logo__description" data-settings="DESCRIPTION">Собственное производство
+                                    кирпича</span>
+                            </span>
+                        </a>
+                    </div>
+
+
+
+                    <div class="h-right" id="bx_3218110189_125">
+                        <div class="h-right__block _phone">
+                            <a href="/ajax/order_call.php" data-toggle="modal" class="h-right__icon theme--color"><i
+                                    class="icon-phone"></i></a>
+                            <div class="h-right__block-text">
+                                <div class="h-right__block-text--top">+7(8362) 38-10-80</div>
+                                <div class="h-right__block-text--bot"><a href="/ajax/order_call.php"
+                                        data-toggle="modal">заказать звонок</a></div>
+                            </div>
+                        </div><!-- .h-right__block -->
+                        <div class="h-right__block _address">
+                            <div class="h-right__icon theme--color"><i class="icon-map"></i></div>
+                            <div class="h-right__block-text">
+                                <div class="h-right__block-text--top">г. Йошкар-Ола</div>
+                                <div class="h-right__block-text--bot">ул. Орая, д. 66, офис 1</div>
+                            </div>
+                        </div><!-- .h-right__block -->
+                        <div class="h-right__block _timetable">
+                            <div class="h-right__icon theme--color"><i class="icon-time"></i></div>
+                            <div class="h-right__block-text">
+                                <div class="h-right__block-text--top">Время работы</div>
+                                <div class="h-right__block-text--bot">Пн-Пт с 12:00 до 13:00<br>Обед с 8:00 до 18:00
+                                </div>
+                            </div>
+                        </div><!-- .h-right__block -->
+                        <div class="h-right__block _gamburger">
+                            <a href="javascript:void(0);"
+                                class="h-right__icon theme--color hamburger js-open-menu"><span
+                                    class="lines"></span></a>
+                        </div><!-- .h-right__block -->
+                    </div>
+                </div><!-- .h-row -->
+            </div>
+        </header>
+
+        <div class="main-menu-line">
+            <div class="w">
+                <div class="main-menu-line__row">
+                    <div class="main-menu">
+
+                        <ul class="h-menu">
+
+
+
+
+                            <li class=""><a href="/kompaniya/">Компания</a>
+                                <ul class="h-sub-menu">
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/istoriya/">
+                                            <span class="h-menu__submenu-item-text">История</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/proizvodstvo/">
+                                            <span class="h-menu__submenu-item-text">Производство</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/svidetelstva-i-sertifikaty/">
+                                            <span class="h-menu__submenu-item-text">Свидетельства и сертификаты</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/vopros-otvet/">
+                                            <span class="h-menu__submenu-item-text">Вопрос-ответ</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/otzyvy-klientov/">
+                                            <span class="h-menu__submenu-item-text">Отзывы клиентов</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/novosti/">
+                                            <span class="h-menu__submenu-item-text">Новости</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/partnery/">
+                                            <span class="h-menu__submenu-item-text">Партнеры</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/kompaniya/aktsii/">
+                                            <span class="h-menu__submenu-item-text">Акции</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </li>
+
+                            <li class=""><a href="/produktsiya/">Продукция</a>
+                                <ul class="h-sub-menu">
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/brus-i-pilomaterialy/">
+                                            <span class="h-menu__submenu-item-text">Брус и пиломатериалы</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/bruschatka-i-plitka/">
+                                            <span class="h-menu__submenu-item-text">Брусчатка и плитка</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/keramicheskie-bloki/">
+                                            <span class="h-menu__submenu-item-text">Керамические блоки</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/kirpich-oblitsovochnyy/">
+                                            <span class="h-menu__submenu-item-text">Кирпич облицовочный</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/kirpich-silikatnyy/">
+                                            <span class="h-menu__submenu-item-text">Кирпич силикатный</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/kirpich-stroitelnyy/">
+                                            <span class="h-menu__submenu-item-text">Кирпич строительный</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/kovanye-izdeliya/">
+                                            <span class="h-menu__submenu-item-text">Кованые изделия</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/peremychki-bruskovye/">
+                                            <span class="h-menu__submenu-item-text">Перемычки брусковые</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/plastikovye-izdeliya/">
+                                            <span class="h-menu__submenu-item-text">Пластиковые изделия</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/produktsiya/testil-dlya-doma/">
+                                            <span class="h-menu__submenu-item-text">Тестиль для дома</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class=""><a href="/price-list/">Прайс-лист</a></li>
+
+
+
+
+
+
+
+                            <li class=""><a href="/uslugi/">Услуги</a>
+                                <ul class="h-sub-menu">
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/uslugi/stroitelstvo_domov_iz_kirpicha/">
+                                            <span class="h-menu__submenu-item-text">Строительство домов из
+                                                кирпича</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/uslugi/krovelnye-raboty/">
+                                            <span class="h-menu__submenu-item-text">Кровельные работы</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/uslugi/elektromontazhnye-raboty/">
+                                            <span class="h-menu__submenu-item-text">Электромонтажные работы</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+
+
+
+                                    <li>
+                                        <a href="/uslugi/fasadnye-raboty/">
+                                            <span class="h-menu__submenu-item-text">Фасадные работы</span>
+                                            <i class="h-menu__submenu-item-icon icon-arrow-right"></i>
+                                        </a>
+                                    </li>
+
+
+
+
+
+                                </ul>
+                            </li>
+
+
+                            <li class=""><a href="/nashi-raboty/">Наши работы</a></li>
+
+
+
+
+
+
+
+
+                            <li class=""><a href="/kontakty/">Контакты</a></li>
+
+
+
+
+
+
+                        </ul>
+                        <div class="menu-clear-left"></div>
+                    </div>
+
+                    <!--noindex-->
+
+                    <form action="/search/" autocomplete="off" class="search-form">
+                        <div class="search-form__input-container">
+                            <input name="q" type="text" class="search-form__input"
+                                placeholder="Введите слово для поиска" maxlength="50">
+                        </div>
+                        <button type="submit" class="search-form__button" name="s">
+                            <i class="icon-search"></i>
+                        </button>
+                    </form>
+                    <!--/noindex-->
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+        <!-- slider -->
+
+
+        <div class="main-slider p__swiper">
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide" id="bx_651765591_80" area-label="перейти в каталог" role="link"
+                        data-href="produktsiya/">
+
+                        <div class="main-slider__image"
+                            style="background-image: url('/upload/iblock/041/041a050187b80438a71eb5e210980526.jpg');">
+                        </div>
+
+                        <div class="w main-slider__w">
+                            <div class="mobile-bg"
+                                style="background-image: url('/upload/iblock/041/041a050187b80438a71eb5e210980526.jpg');">
+                            </div>
+
+                            <div class="main-slider__content">
+                                <div class="main-slider__pre-title pre-title">
+                                    Мы <b>предлагаем</b> </div>
+
+                                <div class="main-slider__title">Производство брусчатки</div>
+                                <div class="main-slider__description">
+                                    Производим широкий ассортимент строительных материалов для дорожного строительства и
+                                    благоустройства в соответствии с ГОСТ. </div>
+
+                                <div class="main-slider__footer">
+                                    <a href="produktsiya/" class="btn btn-transparent btn-stretch">перейти в каталог</a>
+                                </div>
+                            </div><!-- .main-slider__content -->
+                        </div>
+                    </div>
+                    <div class="swiper-slide" id="bx_651765591_79" area-label="Перейти в каталог" role="link"
+                        data-href="/produktsiya/">
+
+                        <div class="main-slider__image"
+                            style="background-image: url('/upload/iblock/1ef/1ef52c362d96ef9efcd1aa3b1f8f9263.jpg');">
+                        </div>
+
+                        <div class="w main-slider__w">
+                            <div class="mobile-bg"
+                                style="background-image: url('/upload/iblock/1ef/1ef52c362d96ef9efcd1aa3b1f8f9263.jpg');">
+                            </div>
+
+                            <div class="main-slider__content">
+                                <div class="main-slider__pre-title pre-title">
+                                    Мы <b>предлагаем</b> </div>
+
+                                <div class="main-slider__title">Производство кирпичей</div>
+                                <div class="main-slider__description">
+                                    Облицовочные, строительные, силикатные кирпичи. Строительные блоки. Высокое
+                                    качество! </div>
+
+                                <div class="main-slider__footer">
+                                    <a href="/produktsiya/" class="btn btn-transparent btn-stretch">Перейти в
+                                        каталог</a>
+                                </div>
+                            </div><!-- .main-slider__content -->
+                        </div>
+                    </div>
+                    <div class="swiper-slide" id="bx_651765591_78" area-label="Перейти" role="link"
+                        data-href="/uslugi/">
+
+                        <div class="main-slider__image"
+                            style="background-image: url('/upload/iblock/080/080b2f47753e5ce6a16b71c2c80ddb05.jpg');">
+                        </div>
+
+                        <div class="w main-slider__w">
+                            <div class="mobile-bg"
+                                style="background-image: url('/upload/iblock/080/080b2f47753e5ce6a16b71c2c80ddb05.jpg');">
+                            </div>
+
+                            <div class="main-slider__content">
+                                <div class="main-slider__pre-title pre-title">
+                                    Мы <b>предлагаем</b> </div>
+
+                                <div class="main-slider__title">Строительство коттеджей</div>
+                                <div class="main-slider__description">
+                                    Проектирование, строительство коттеджей под ключ. Кровельные, фасадные,
+                                    электромонтажные работы. Бесплатная консультация специалистов! </div>
+
+                                <div class="main-slider__footer">
+                                    <a href="/uslugi/" class="btn btn-transparent btn-stretch">Перейти</a>
+                                </div>
+                            </div><!-- .main-slider__content -->
+                        </div>
+                    </div>
+                </div><!-- .swiper-wrapper -->
+            </div><!-- .swiper-container -->
+
+            <div class="w swiper-pagination-container">
+                <div class="swiper-pagination"></div>
+            </div>
+        </div><!-- .main-slider -->
+
+        <script>
+            $(function () {
+                // http://idangero.us/swiper/api/
+                var swiper = new Swiper('.main-slider .swiper-container', {
+                    watchOverflow: true,
+                    /*autoplay: {
+                    	delay: 5000,
+                    },*/
+                    //loop: true,
+
+                    // pagination
+                    pagination: {
+                        el: '.main-slider .swiper-pagination',
+                        clickable: true,
+                    },
+                });
+                var navigateLink = function () {
+                    this.dataset.href && window.open(this.dataset.href, this.dataset.target || '_self');
+                };
+                $(swiper.el).find('.swiper-slide[data-href]')
+                    .click(navigateLink)
+                    .keydown(navigateLink);
+            });
+        </script>
+
+
+        <!-- production sections -->
+        <section class="section _with-padding section-color-gray">
+            <div class="w">
+                <div class="section-inner">
+                    <header class="section-header _center">
+                        <div class='h1'>Производство</div>
+                    </header>
+
+
+                    <div class="p__swiper product-sections-slider _nav-offset _pagination-hide-nav _big-nav">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide" id="bx_1847241719_2">
+
+                                    <a href="/produktsiya/brus-i-pilomaterialy/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/ed1/ed186121191f91466440fd239d065428.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Брус и пиломатериалы </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_5">
+
+                                    <a href="/produktsiya/bruschatka-i-plitka/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/3fe/3feaf821a76ce6f26891f096d3cf814d.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Брусчатка и плитка </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_6">
+
+                                    <a href="/produktsiya/keramicheskie-bloki/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/33a/33a3556b11216d329b15bd1e3e515bc2.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Керамические блоки </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_7">
+
+                                    <a href="/produktsiya/kirpich-oblitsovochnyy/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/6e8/6e840a7e4dc4f28a84801527353844ad.jpg');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Кирпич облицовочный </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_8">
+
+                                    <a href="/produktsiya/kirpich-silikatnyy/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/d53/d53ad33720f348e4c0e6831a080d6bc8.jpg');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Кирпич силикатный </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_9">
+
+                                    <a href="/produktsiya/kirpich-stroitelnyy/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/970/970c7f0b9af855b3f8b46287b792b112.jpg');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Кирпич строительный </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_10">
+
+                                    <a href="/produktsiya/kovanye-izdeliya/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/eb7/eb7b788b47b6701eccbd653e8786e9af.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Кованые изделия </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_11">
+
+                                    <a href="/produktsiya/peremychki-bruskovye/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/resize_cache/iblock/c00/400_400_1/c002783c7ed3d4daeef8ec9053faaa84.jpg');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Перемычки брусковые </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_12">
+
+                                    <a href="/produktsiya/plastikovye-izdeliya/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/1b7/1b70cb882e1df23522c96cd4848bc6d5.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Пластиковые изделия </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                                <div class="swiper-slide" id="bx_1847241719_15">
+
+                                    <a href="/produktsiya/testil-dlya-doma/" class="products-section">
+                                        <span class="products-section__image">
+                                            <span
+                                                style="background-image: url('/upload/iblock/83d/83d50aa341ec0a5c2491c01981da28d8.png');"></span>
+                                        </span><!-- .products-section__image -->
+                                        <span class="products-section__footer">
+                                            <span class="products-section__title">
+                                                Тестиль для дома </span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span><!-- .products-section__footer -->
+                                    </a>
+                                </div>
+                            </div>
+                        </div><!-- .swiper-container -->
+                        <div class="swiper-pagination"></div>
+                        <div class="swiper-button-prev"><span class="icon-arrow-left"></span></div>
+                        <div class="swiper-button-next"><span class="icon-arrow-right"></span></div>
+                    </div><!-- .product-slider -->
+
+                    <script>
+                        ;
+                        (function () {
+                            // http://idangero.us/swiper/api/
+                            new Swiper('.product-sections-slider .swiper-container', {
+                                watchOverflow: true,
+                                /*autoplay: {
+                                  delay: 5000,
+                                },*/
+                                //loop: true,
+
+                                // pagination
+                                pagination: {
+                                    el: '.product-sections-slider .swiper-pagination',
+                                    clickable: true,
+                                },
+                                // Navigation arrows
+                                navigation: {
+                                    nextEl: '.product-sections-slider .swiper-button-next',
+                                    prevEl: '.product-sections-slider .swiper-button-prev',
+                                },
+
+                                slidesPerView: 4,
+                                slidesPerColumn: 2,
+                                slidesPerColumnFill: 'row',
+                                spaceBetween: 25,
+                                breakpoints: {
+                                    479: {
+                                        slidesPerView: 1,
+                                        spaceBetween: 15
+                                    },
+                                    767: {
+                                        slidesPerView: 2,
+                                        spaceBetween: 15
+                                    },
+                                    1024: {
+                                        slidesPerView: 3,
+                                        spaceBetween: 25
+                                    }
+                                },
+                                on: {
+                                    init: function () {
+                                        equalHeightTop($('.products-section__footer'));
+                                    }
+                                }
+                            });
+                        })();
+                    </script>
+
+                    <footer class="section-footer">
+                        <a href="/produktsiya/" class="btn btn-primary btn-stretch">Перейти в каталог</a>
+                    </footer>
+                </div><!-- .section-inner -->
+            </div><!-- .w -->
+        </section>
+
+
+        <!-- yellow line Price -->
+        <div class="callout theme--bg-color">
+            <div class="w">
+                <div class="callout-row">
+                    <div class="callout-left">
+                        <div class="callout-title">Нужен прайс-лист на все товары?</div>
+                        <div class="callout-description">Оставьте заявку и мы вышлем вам прайс-лист с актуальными
+                            ценами!</div>
+                    </div>
+                    <div class="callout-right">
+                        <a href="/price-list2/" class="btn btn-more">прайс-лист</a>
+                    </div>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- service -->
+        <section class="section _with-padding section-color-gray">
+            <div class="w">
+                <div class="section-inner">
+
+
+                    <div class="mp-service-row">
+                        <div class="mp-service__col _col1">
+
+                            <div class="mp-service__content" id="bx_1373509569_172">
+                                <header class="section-header">
+                                    <div class="pre-title">Мы <b>поможем</b></div>
+
+                                    <div class="h1">Услуги</div>
+                                </header>
+
+                                <p>
+                                    Специализируемся на услугах для малого и среднего бизнеса. Работаем с физическими и
+                                    юридическими лицами.
+                                </p>
+                                <p>
+                                    10 лет на рынке проектирования, консалтинга и крупных поставок промышленного
+                                    оборудования.
+                                </p>
+                            </div>
+
+                            <footer class="section-footer display-xs-n display-lg-b">
+                                <div class="btn-row">
+                                    <a href="/ajax/order_call.php" data-toggle="modal" class="btn btn-primary">оставить
+                                        заявку</a>
+                                    <a href="" class="btn btn-more">все услуги</a>
+                                </div>
+                            </footer>
+                        </div>
+                        <div class="mp-service__col _col2">
+                            <div class="service-small">
+                                <a href="/uslugi/stroitelstvo_domov_iz_kirpicha/" class="service-small__item"
+                                    id="bx_1373509569_77"
+                                    style="background-image: url('/upload/iblock/3e6/3e64d66d66b234cb2cd6d836da3ec466.jpg');">
+                                    <span class="service-small__content">
+                                        <span class="service-small__name">Строительство домов из кирпича</span>
+                                        <span class="service-small__description"> Невзирая на появление на строительном
+                                            рынке новых передовых материалов и технологий кирпич, как стр...</span>
+                                        <span class="service-small__footer">
+                                            <span>подробнее</span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="/uslugi/krovelnye-raboty/" class="service-small__item" id="bx_1373509569_76"
+                                    style="background-image: url('/upload/iblock/53e/53e947771ea1a24118622539240ae74f.png');">
+                                    <span class="service-small__content">
+                                        <span class="service-small__name">Кровельные работы</span>
+                                        <span class="service-small__description">Монтаж кровли – не первоочередное
+                                            мероприятие! Кровельным работам предшествует проектирование и проф...</span>
+                                        <span class="service-small__footer">
+                                            <span>подробнее</span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="/uslugi/fasadnye-raboty/" class="service-small__item" id="bx_1373509569_75"
+                                    style="background-image: url('/upload/iblock/245/2450b67d6089648e04df079d6e48f71b.jpg');">
+                                    <span class="service-small__content">
+                                        <span class="service-small__name">Фасадные работы</span>
+                                        <span class="service-small__description">Значение фасадных работ в строительстве
+                                            загородных домов и коттеджей сложно переоценить, поскольку о...</span>
+                                        <span class="service-small__footer">
+                                            <span>подробнее</span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                                <a href="/uslugi/elektromontazhnye-raboty/" class="service-small__item"
+                                    id="bx_1373509569_74"
+                                    style="background-image: url('/upload/iblock/e3d/e3d4e06ed1289bfd6b7e37d4c9feb221.jpg');">
+                                    <span class="service-small__content">
+                                        <span class="service-small__name">Электромонтажные работы</span>
+                                        <span class="service-small__description">Выполняемые нами работы производятся
+                                            согласно строительным нормам и правилам в соответствии с проект...</span>
+                                        <span class="service-small__footer">
+                                            <span>подробнее</span>
+                                            <i class="icon-arrow-right"></i>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                        </div>
+                    </div><!-- .mp-service-row -->
+
+                    <footer class="section-footer display-lg-n">
+                        <div class="btn-row">
+                            <a href="/ajax/order_call.php" data-toggle="modal" class="btn btn-primary">оставить
+                                заявку</a>
+                            <a href="" class="btn btn-more">все услуги</a>
+                        </div>
+                    </footer>
+
+
+
+
+                </div><!-- .section-inner -->
+            </div><!-- .w -->
+        </section>
+
+
+        <!-- company -->
+        <section class="section _with-padding section-color-n">
+            <div class="w">
+                <div class="section-inner">
+
+
+
+                    <div class="mp-about">
+
+                        <div class="row row-grid" id="bx_3485106786_171">
+                            <div class="col-lg-6 display-xs-n display-lg-b">
+                                <div class="img-shadow">
+                                    <img src="/upload/iblock/11b/11bbecdf95f51140fd93dc03323002f0.jpg"
+                                        alt="Компания «Промкирпич»" title="Компания «Промкирпич»" width="475"
+                                        height="475">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <header class="section-header mp-about__header">
+                                    <div class="pre-title">Мы <b>производим</b></div>
+                                    <div class="h1">Компания «Промкирпич»</div>
+                                </header>
+
+                                <p class="ta-xs-c display-lg-n mp-about__image">
+                                    <span class="img-shadow">
+                                        <img src="/upload/iblock/11b/11bbecdf95f51140fd93dc03323002f0.jpg"
+                                            alt="Компания «Промкирпич»" title="Компания «Промкирпич»" width="400">
+                                    </span>
+                                </p>
+
+                                <p style="text-align: justify;">
+                                    Кирпичный завод ПромКирпич уже многие годы специализируется на производстве
+                                    облицовочного кирпича премиум класса. Мы используем современное оборудование и
+                                    высокие технологии, что позволяет нам занимать уверенное место среди лидеров на
+                                    отечественном рынке.
+                                </p>
+                                <p style="text-align: justify;">
+                                </p>
+                                <p style="text-align: justify;">
+                                    Мы ориентированы на будущее, поэтому цель нашей компании - активно развиваться для
+                                    удовлетворения потребностей отечественного строительного рынка, нуждающегося в
+                                    современных строительных материалах, а так же для сохранения и накоплении мирового
+                                    опыта изготовления кирпича, его преумножения, для поддержания и развития местных
+                                    традиций мастерства кирпичного дела.
+                                </p>
+
+                                <footer class="section-footer">
+                                    <div class="btn-row">
+                                        <a href="kompaniya/proizvodstvo/" class="btn btn-primary">производство</a>
+                                        <a href="kompaniya/svidetelstva-i-sertifikaty/"
+                                            class="btn btn-more">сертификаты</a>
+                                    </div>
+                                </footer>
+                            </div>
+                        </div>
+                    </div>
+                </div><!-- .section-inner -->
+            </div><!-- .w -->
+        </section>
+
+
+
+        <!-- news -->
+        <section class="section _with-padding section-color-gray">
+            <div class="w">
+                <div class="section-inner">
+                    <header class="section-header _center">
+                        <div class='h1'>Новости</div>
+                    </header>
+
+
+                    <div class="three-news">
+                        <a href="/kompaniya/novosti/postupilo-novoe-derevoobrabatyvayushchee-oborudovanie/"
+                            class="three-news__big-item" id="bx_3099439860_5">
+                            <span class="three-news__big-item__image img-placeholder">
+                                <span
+                                    style="background-image: url(/upload/iblock/6ff/6ff9046727354e90c27d55ec1f0d7e23.jpg);"></span>
+                            </span>
+
+
+                            <span class="three-news__big-item__content">
+                                <span class="three-news__date">13.08.2018</span>
+                                <span class="three-news__name">Поступило новое деревообрабатывающее оборудование </span>
+                            </span>
+                        </a>
+
+                        <div class="three-news__row">
+                            <a href="/kompaniya/novosti/osnovanie-kompanii/" class="three-news__item-link"
+                                id="bx_3099439860_4">
+                                <span class="three-news__item-image"
+                                    style="background-image: url(/upload/iblock/270/2701b7261c13bfa7df8a9234f06c7d77.jpg);"></span>
+
+                                <span class="three-news__item-content">
+                                    <span class="three-news__date">25.07.2018</span>
+                                    <span class="three-news__name">Основание компании</span>
+                                </span>
+                            </a>
+                            <a href="/kompaniya/novosti/22-ya-spetsializirovannaya-vystavka-stroitelstvo/"
+                                class="three-news__item-link" id="bx_3099439860_3">
+                                <span class="three-news__item-image"
+                                    style="background-image: url(/upload/iblock/e3f/e3f0fa346822b3a68fdb16187d565927.jpg);"></span>
+
+                                <span class="three-news__item-content">
+                                    <span class="three-news__date">16.07.2018</span>
+                                    <span class="three-news__name">22-я специализированная выставка
+                                        «Строительство»</span>
+                                </span>
+                            </a>
+                        </div>
+                    </div>
+
+                    <footer class="section-footer">
+                        <a href="/kompaniya/novosti/" class="btn btn-more">все новости</a>
+                    </footer>
+                </div><!-- .section-inner -->
+            </div><!-- .w -->
+        </section>
+
+
+
+
+
+
+
+        <div class="callout callout--template-2 theme--bg-color">
+            <div class="w">
+                <div class="callout-row">
+                    <div class="callout-left">
+                        <div class="callout-title">Нужна консультация специалиста?</div>
+                        <div class="callout-description">Звоните, с радостью поможем Вам!</div>
+                    </div>
+                    <div class="callout-right">
+                        <a class="callout-right-phone" href="+7(8362) 38-10-80">+7(8362) 38-10-80</a>
+                        <a href="/ajax/order_call.php" data-toggle="modal" class="btn btn-more">заказать звонок</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer class="f">
+            <div class="w">
+                <div class="f-t row row-grid">
+                    <div class="col-md-6 col-lg-9">
+                        <div class="f-menu">
+                            <div class="f-menu-item">
+
+                                <a class="f-menu-item__title" href="/produktsiya/">
+                                    Продукция </a>
+
+
+                                <div class="f-menu-item__submenu">
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/brus-i-pilomaterialy/">Брус и пиломатериалы</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/bruschatka-i-plitka/">Брусчатка и плитка</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/keramicheskie-bloki/">Керамические блоки</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/kirpich-oblitsovochnyy/">Кирпич облицовочный</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/kirpich-silikatnyy/">Кирпич силикатный</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/kirpich-stroitelnyy/">Кирпич строительный</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/produktsiya/kovanye-izdeliya/">Кованые изделия</a>
+                                    </div>
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item _more">
+                                        <a href="/produktsiya/">смотреть все</a>
+                                    </div>
+
+
+                                </div><!-- .f-menu-item__submenu -->
+                            </div><!-- .f-menu-item -->
+                            <div class="f-menu-item">
+
+                                <a class="f-menu-item__title" href="/uslugi/">
+                                    Услуги </a>
+
+
+                                <div class="f-menu-item__submenu">
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/uslugi/stroitelstvo_domov_iz_kirpicha/">Строительство домов из
+                                            кирпича</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/uslugi/krovelnye-raboty/">Кровельные работы</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/uslugi/elektromontazhnye-raboty/">Электромонтажные работы</a>
+                                    </div>
+
+
+
+
+
+
+                                    <div class="f-menu-item__submenu-item">
+                                        - <a href="/uslugi/fasadnye-raboty/">Фасадные работы</a>
+                                    </div>
+
+
+
+
+                                </div><!-- .f-menu-item__submenu -->
+                            </div><!-- .f-menu-item -->
+                            <div class="f-menu-item">
+
+                                <a class="f-menu-item__title" href="/kompaniya/">
+                                    Компания </a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                <a class="f-menu-item__title" href="/price-list/">
+                                    Прайс-лист </a>
+
+
+
+
+
+                                <a class="f-menu-item__title" href="/nashi-raboty/">
+                                    Наши работы </a>
+
+
+
+
+
+                                <a class="f-menu-item__title" href="/kontakty/">
+                                    Контакты </a>
+
+
+
+
+
+                            </div><!-- .f-menu-item -->
+
+                        </div><!-- .f-menu -->
+
+                    </div>
+
+                    <div class="col-md-6 col-lg-3 f-t__col-contact">
+                        <div class="f-t__title">Связаться с нами</div>
+
+                        <div class="footer-office" id="bx_565502798_125">
+                            <div class="properties">
+                                <div class="property__it">
+                                    <div class="property__icon">
+                                        <i class="icon-mail"></i>
+                                    </div>
+                                    <div class="property__value-list">
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                <a
+                                                    href="mailto:info@aspf-test.citrus-web.ru">info@aspf-test.citrus-web.ru</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property__it">
+                                    <div class="property__icon">
+                                        <i class="icon-skype"></i>
+                                    </div>
+                                    <div class="property__value-list">
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                <a href="skype:kostin.yuri?call">kostin.yuri</a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property__it">
+                                    <div class="property__icon">
+                                        <i class="icon-map"></i>
+                                    </div>
+                                    <div class="property__value-list">
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                <a href="javascript:void(0);" class="map-link"
+                                                    title="г. Йошкар-Ола,ул. Орая, д. 66, офис 1"
+                                                    data-address="г. Йошкар-Ола,ул. Орая, д. 66, офис 1"
+                                                    data-header="Центральный офис">г. Йошкар-Ола,ул. Орая, д. 66, офис
+                                                    1</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property__it">
+                                    <div class="property__icon">
+                                        <i class="icon-time"></i>
+                                    </div>
+                                    <div class="property__value-list">
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                Пн-Пт с 12:00 до 13:00 </div>
+                                        </div>
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                Обед с 8:00 до 18:00 </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="property__it">
+                                    <div class="property__icon">
+                                        <i class="icon-phone"></i>
+                                    </div>
+                                    <div class="property__value-list">
+                                        <div class="property__value-it">
+                                            <div class="property__value-it__value">
+                                                <a href="tel:+7(8362) 38-10-80">+7(8362) 38-10-80</a> </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="soc-list">
+                                <a target="_blank" href="https://www.facebook.com/" class="soc-it _fb">
+                                    <span class="icon-fb"></span>
+                                </a>
+                                <a target="_blank" href="https://vk.com/" class="soc-it _vk">
+                                    <span class="icon-vk"></span>
+                                </a>
+                                <a target="_blank" href="https://twitter.com/" class="soc-it _tw">
+                                    <span class="icon-tw"></span>
+                                </a>
+                                <a target="_blank" href="https://www.youtuгbe.com/" class="soc-it _yt">
+                                    <span class="icon-yt"></span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div><!-- .f-t -->
+                <div class="f-b">
+                    <div class="f-b__copy">
+                        &copy; 2020 ПромКирпич <br>
+                        <a class="f-agreement-link" href="/agreement/">Политика конфиденциальности</a>
+                    </div>
+                    <div class="f-b__developer">
+                        <a href="https://citrus-soft.ru/" target="_blank">Разработано в Цитрусе</a>
+                        <div id="bx-composite-banner"></div>
+                    </div>
+                </div><!-- .f-b -->
+            </div><!-- .w -->
+        </footer>
+    </div><!-- .main-container -->
+
+</body>
+
+</html>
